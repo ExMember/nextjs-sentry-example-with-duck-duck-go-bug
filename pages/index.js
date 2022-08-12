@@ -1,6 +1,11 @@
 import Link from 'next/link'
+import {useEffect} from 'react'
 
-const Index = () => (
+export default function Index () {
+	useEffect(() => {
+		alert('test')
+	})
+	return (
   <div style={{ maxWidth: 700, margin: '0 auto' }}>
     <h2>Sentry Simple Example 🚨</h2>
     <p>
@@ -177,5 +182,5 @@ const Index = () => (
     </ol>
   </div>
 )
+}
 
-export default Index
