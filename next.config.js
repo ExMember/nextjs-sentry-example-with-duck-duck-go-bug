@@ -20,7 +20,7 @@ const sentryWebpackPluginOptions = {
   // For all available options, see:
   // https://github.com/getsentry/sentry-webpack-plugin#options.
 
-  release: true, // override release value
+  release: ' ', // override release value
 };
 
 // Make sure adding Sentry options is the last code to run before exporting, to
